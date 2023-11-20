@@ -1,0 +1,39 @@
+.stylish {
+  color: white;
+  text-decoration: none;
+}
+
+.Login {
+  font-size: 1.4rem;
+}
+
+.Nav-csi {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 47%;
+  margin-left: 2rem;
+}
+.Nav-csi:hover {
+  color: tomato;
+  transition: 300ms ease-in-out;
+}
+
+.Nav-csi-text {
+  margin-left: 1.5rem;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.Nav-csi-link a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-filler {
+  height: 64px;
+  z-index: 0;
+  width: 100vw;
+}
